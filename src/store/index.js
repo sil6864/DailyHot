@@ -9,39 +9,15 @@ export const mainStore = defineStore("mainData", {
       // 新闻类别
       defaultNewsArr: [
         {
-          label: "抖音",
-          name: "douyin",
-          order: 2,
-          show: true,
-        },
-        {
-          label: "知乎",
-          name: "zhihu",
-          order: 3,
-          show: true,
-        },
-        {
-          label: "36氪",
-          name: "36kr",
-          order: 4,
-          show: true,
-        },
-        {
           label: "百度",
           name: "baidu",
           order: 5,
           show: true,
         },
         {
-          label: "少数派",
-          name: "sspai",
-          order: 6,
-          show: true,
-        },
-        {
-          label: "IT之家",
-          name: "ithome",
-          order: 7,
+          label: "知乎",
+          name: "zhihu",
+          order: 3,
           show: true,
         },
         {
@@ -57,45 +33,9 @@ export const mainStore = defineStore("mainData", {
           show: true,
         },
         {
-          label: "百度贴吧",
-          name: "tieba",
-          order: 10,
-          show: true,
-        },
-        {
-          label: "稀土掘金",
-          name: "juejin",
-          order: 11,
-          show: true,
-        },
-        {
           label: "腾讯新闻",
           name: "qq-news",
           order: 12,
-          show: true,
-        },
-        {
-          label: "豆瓣电影",
-          name: "douban-movie",
-          order: 13,
-          show: true,
-        },
-        {
-          label: "原神",
-          name: "genshin",
-          order: 14,
-          show: true,
-        },
-        {
-          label: "崩坏：星穹铁道",
-          name: "starrail",
-          order: 16,
-          show: true,
-        },
-        {
-          label: "LOL",
-          name: "lol",
-          order: 15,
           show: true,
         },
         {
@@ -105,21 +45,15 @@ export const mainStore = defineStore("mainData", {
           show: true,
         },
         {
-          label: "微信读书",
-          name: "weread",
-          order: 18,
-          show: true,
-        },
-        {
-          label: "豆瓣讨论小组",
-          name: "douban-group",
-          order: 19,
-          show: true,
-        },
-        {
           label: "NGA",
           name: "ngabbs",
           order: 20,
+          show: true,
+        },
+        {
+          label: "IT之家",
+          name: "ithome",
+          order: 7,
           show: true,
         },
         {
@@ -132,6 +66,12 @@ export const mainStore = defineStore("mainData", {
           label: "简书",
           name: "jianshu",
           order: 22,
+          show: true,
+        },
+        {
+          label: "抖音",
+          name: "douyin",
+          order: 2,
           show: true,
         },
         {
