@@ -9,12 +9,6 @@ export const mainStore = defineStore("mainData", {
       // 新闻类别
       defaultNewsArr: [
         {
-          label: "微博",
-          name: "weibo",
-          order: 1,
-          show: true,
-        },
-        {
           label: "抖音",
           name: "douyin",
           order: 2,
